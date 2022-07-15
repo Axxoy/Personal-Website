@@ -28,8 +28,6 @@ This is version 1.0, made completely from scratch, without the use of any templa
   [Comfortaa Font](Axoy-Website/public/fonts/Comfortaa-Light.ttf)
 
 <br>
-<br>
-<br>
 
 Enjoy! 
 
