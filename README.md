@@ -18,7 +18,7 @@ This is version 1.0, made completely from scratch, without the use of any templa
 🚀 Languages: HTML, CSS, JavaScript.
 
 <br>
-❕ Note: Make sure you download & install [Comfortaa Font](/Axoy-Website/public/fonts/Comfortaa-Light.ttf) to ensure everything appears as intended.
+❕ Note: Make sure you download & install [Comfortaa Font](../main/public/fonts/) to ensure everything appears as intended.
 
 
 <br>
