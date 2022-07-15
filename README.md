@@ -32,6 +32,7 @@ This is version 1.0, made completely from scratch, without the use of any templa
 Enjoy! 
 
 <br>
+
 *MIT License*
 
 *Copyright (c) 2022 Axoy*
