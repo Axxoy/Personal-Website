@@ -1,0 +1,412 @@
+body {
+  background-color: #1a1a1a;
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+  font-size: calc(0.75em + 1vw);
+  /* to make the font responsive */
+
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+
+}
+
+/* To hide the scrollbar👇 */
+body {
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  /*  To disable dragging */
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+
+div {
+  /* This is just to highlight the divs */
+  /* outline: 1px solid greenyellow; */
+}
+
+/* Socials (Contact Me section) */
+
+div.social {
+  width: 15.5%;
+  height: 20vw;
+  margin: 1.21vw;
+  display: inline-block;
+}
+
+div.social:hover,
+#socialResume:hover {
+  transition: 0.08s ease-in-out;
+  transform: scale(1.04);
+}
+
+#socialHoverGithub:hover {
+  background-image: url(/images/gradient-wp/gradient-blue.jpg);
+}
+
+#socialHoverLinkedin:hover {
+  background-image: url(/images/gradient-wp/gradient-hue.jpg);
+}
+
+#socialHoverGmail:hover {
+  background-image: url(/images/gradient-wp/gradient-darkBlue.jpg);
+}
+
+#socialHoverInsta:hover {
+  background-image: url(/images/gradient-wp/gradient-round.jpg);
+}
+
+#socialHoverStackof:hover {
+  background-image: url(/images/gradient-wp/gradient-sunset.jpg);
+}
+
+#socialResume {
+  width: 96%;
+  margin-left:
+    auto;
+  margin-right:
+    auto;
+  border-radius:
+    1.5vw;
+  background-color:
+    rgb(41, 41, 41);
+
+}
+
+#socialResume:hover {
+  background-image: url(/images/gradient-wp/gradient-green.jpg);
+  background-size: cover;
+}
+
+.cyan {
+  color: rgb(0, 205, 185);
+  display: contents;
+}
+
+p.headingMain {
+  color: rgb(40, 40, 40);
+  font-size: 10vw;
+  font-family: 'Comfortaa-Light', sans-serif !important;
+  height: 1.5vw;
+  margin-top: 2vw;
+}
+
+.parent {
+  padding: 5px 5px;
+  text-align: center;
+  height: 100%;
+}
+
+.banner {
+  background-image: url(/images/gradient-wp/gradient-blue.jpg);
+  margin-top: 3vw;
+  padding-top: 2.5vw;
+}
+
+.child {
+  display: inline-flex;
+  padding: 5px 5px;
+  vertical-align: middle;
+}
+
+img.me {
+  height: 40vw;
+  border-right: 0.4px solid white;
+  border-bottom: 0.8px solid white;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 8% 10% 10% 8%;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  transition: opacity .2s;
+}
+
+.socialImg {
+  display: block;
+  max-width: 80%;
+  height: auto;
+  margin: auto;
+  display: block;
+  max-width: 80%;
+  margin-bottom: 6vw;
+  margin-top: 0.5vw;
+}
+
+div.socialTitle {
+  margin-top: -2vw;
+  margin: auto;
+  margin-bottom: 5vw;
+  font-size: max(2.8vw, 10px);
+}
+
+.socialTitle {
+  font-size: max(3vw, 10px);
+  margin: auto;
+  margin-bottom: 5vw;
+  margin-top: -2vw;
+}
+
+h1.resumeTitle {
+  padding: 1.65vw;
+  font-size: max(2.5vw, 17px);
+}
+
+.figure {
+  position: relative;
+}
+
+.figure:hover img.image-hover {
+  opacity: 1;
+  height: 40.3vw;
+  border: none;
+}
+
+.figure img.image-hover {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  left: 4px;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .3s;
+  border-radius: 8% 10% 10% 8%;
+}
+
+div.aboutMeImage {
+  float: right;
+  margin-top: 11.5vw;
+  margin-right: 3vw;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+
+div.info {
+  /* Section below image */
+  margin-right: 3vw;
+  margin-top: -61vw;
+  float: right;
+  text-align: left;
+  line-height: 10%;
+  overflow: auto;
+  position: absolute;
+  right: 0px;
+  top: 120vw;
+  height: auto;
+  width: 30.5%;
+}
+
+div.contactMeBubble {
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1.5vw;
+  background-color: rgb(41, 41, 41);
+}
+
+div.contactMe {
+  margin: 10vw auto 5vw auto;
+  height: fit-content;
+}
+
+h1 {
+  font-family: 'Comfortaa-Light', sans-serif !important;
+  color: rgb(245, 245, 245);
+  font-size: max(1.5vw, 13px);
+}
+
+#paragraphNormal {
+  font-family: 'Comfortaa-Light', sans-serif !important;
+  color: rgb(245, 245, 245);
+  font-size: max(1.3vw, 12px);
+  padding: 1vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#headerTitle {
+  font-size: max(2vw, 16px);
+  margin-left: 2.5vw;
+  color: rgb(150, 222, 209);
+  float: left;
+}
+
+#signature {
+  float: right;
+  margin-right: 2vw;
+  margin-top: 0.9%;
+  font-size: max(2vw, 16px);
+}
+
+img.signatureImg {
+  float: right;
+  max-width: 100px;
+  width: 10vw;
+  height: auto;
+}
+
+#navBarMain {
+  object-fit: contain;
+  height: 4.5vw;
+  margin-bottom: -3vw;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #1a1a1a;
+}
+
+.content {
+  font-family: 'Comfortaa-Light', sans-serif !important;
+  color: rgb(245, 245, 245);
+  background-color: rgb(41, 41, 41);
+  padding: 10px;
+  border-radius: 1.5vw;
+  font-size: max(1.5vw, 13px);
+}
+
+.aboutMe {
+  background-color: rgb(41, 41, 41);
+  padding: 1vw;
+  border-radius: 1vw;
+  font-size: max(2.5vw, 17px);
+}
+
+div.description {
+  margin-right: 39.5vw;
+  text-align: left;
+  padding-left: 2vw;
+  line-height: 118%;
+}
+
+div.large {
+  margin-top: 6vw;
+  overflow: auto;
+  display: block;
+  position: relative;
+  padding-bottom: 2vw;
+}
+
+@font-face {
+  font-family: 'Comfortaa-Light';
+  src: url("/fonts/Comfortaa-Light.ttf");
+}
+
+/*  To make the image fade in on scroll */
+
+.star {
+  visibility: hidden;
+}
+
+.fadeIn {
+  -webkit-animation: animat_show 0.8s;
+  animation: animat_show 0.8s;
+  visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+/* ------------------------------------- */
+
+.switch {
+  max-height: 100%;
+  max-width: 100%;
+  background-image: url(/images/me/memoji.png);
+  background-size: contain;
+  transition: 0.4s ease-in-out;
+
+  /* Drop Shadow black for Memoji */
+  filter: drop-shadow(3px 7px 10px #000000);
+
+  height: 19vw;
+  width: 19vw;
+  display: block;
+  margin: auto;
+}
+
+.switch:hover {
+  background-image: url(/images/me/memoji2.png);
+  max-height: 100%;
+  max-width: 100%;
+  background-size: contain;
+}
+
+a,
+a:hover,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+div.windowImg {
+  width: 30%;
+  float: right;
+  margin: 2vw;
+  margin-top: 11vw
+}
+
+img.windowImg {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+div.quoteBlock {
+  width: 55%;
+  float: left;
+  margin: 3vw;
+  margin-top: 15vw
+}
+
+#footer {
+  display: block;
+  overflow: auto;
+  height: 15vw;
+  display: block;
+  width: 99%;
+}
+
+#footerText {
+  font-size: 1.5vw;
+  opacity: 0.7;
+}
