@@ -9,6 +9,8 @@ I wanted to create a minimal yet modern looking webpage that combines my interes
 
 This is version 1.0, made completely from scratch, without the use of any templates.
 
+<br>
+
 ✨ Pretty happy with how it turned out. I tried implementing a responsive design as much as I could.
 
 <br>
@@ -16,7 +18,7 @@ This is version 1.0, made completely from scratch, without the use of any templa
 🚀 Languages: HTML, CSS, JavaScript.
 
 <br>
-❕ Note: Make sure you download & install [Comfortaa Font](Axoy-Website/public/fonts/Comfortaa-Light.ttf) to ensure everything appears as intended.
+❕ Note: Make sure you download & install [Comfortaa Font](/Axoy-Website/public/fonts/Comfortaa-Light.ttf) to ensure everything appears as intended.
 
 
 <br>
@@ -24,8 +26,8 @@ This is version 1.0, made completely from scratch, without the use of any templa
 <br>
 
 
-MIT License
+*MIT License*
 
-Copyright (c) 2022 Axoy
+*Copyright (c) 2022 Axoy*
 
-Designed and created by Cüneyt Aksoy
+*Designed and created by Cüneyt Aksoy*
