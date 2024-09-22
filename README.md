@@ -7,7 +7,7 @@ The first version of my personal website (axoy.me), which serves as a short intr
 
 
 
-# 🔗 [Axoy.me](https://www.axoy.me)
+# 🔗 [Link to my website](https://axoy-website.web.app)
 
 I wanted to create a minimal yet modern looking webpage that combines my interest for graphic design, computer science, and functional design all into one.
 
